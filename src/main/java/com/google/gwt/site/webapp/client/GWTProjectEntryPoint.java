@@ -38,6 +38,7 @@ import com.google.gwt.regexp.shared.RegExp;
 import com.google.gwt.user.client.Event;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.impl.HyperlinkImpl;
+import static eu.nekoko.gwtquery.flexnav.client.Flexnav.Flexnav;
 
 public class GWTProjectEntryPoint implements EntryPoint {
 
@@ -183,6 +184,8 @@ public class GWTProjectEntryPoint implements EntryPoint {
       loadPage(null);
       return;
     }
+
+    $("#nav").as(Flexnav).flexnav();
 
     // Use Ajax instead of default behaviour
     $(body).on("click", "a", new Function() {

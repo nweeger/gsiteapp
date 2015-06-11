@@ -4,6 +4,7 @@
 <module rename-to="gwtproject">
 	<inherits name="com.google.gwt.user.User" />
     <inherits name="com.google.gwt.query.Query"/>
+    <inherits name="eu.nekoko.gwtquery.flexnav.Flexnav" />
 
 	<source path="client" />
 	<entry-point

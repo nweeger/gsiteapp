@@ -107,6 +107,12 @@
             <type>zip</type>
             <classifier>generated-site</classifier>
          </dependency>
+         <dependency>
+           <groupId>eu.nekoko.gwtquery</groupId>
+           <artifactId>flexnav-plugin</artifactId>
+           <version>1.0-SNAPSHOT</version>
+         </dependency>
+
     </dependencies>
 
     <build>
